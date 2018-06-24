@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'BPG Rioni Vera';
+    src: url('../fonts/BPGRioniVera.woff2') format('woff2'), url('../fonts/BPGRioniVera.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: BPG Rioni Vera;
+    display: flex;
+    justify-content: center
+}
+
+.c{
+    color: red;
+    position: relative;
+    animation: jj 300ms ease-in-out;
+}
+
+@keyframes jj {
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 0px;
+    }
+}
